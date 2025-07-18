@@ -29,6 +29,39 @@ SmartScheduler is a personal assistant web app built using **Next.js**, **Node.j
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/smart-scheduler.git
+git clone https://github.com/KoalaJonny/smart-scheduler.git
 cd smart-scheduler
 ```
+
+2. Install dependencies:
+
+npm install
+
+3. Run the development server:
+   npm run dev
+
+4. Open http://localhost:3000 in your browser to see the app.
+
+🔐 Environment Variables
+Create a .env.local file in the root directory and add the following:
+
+TWILIO_ACCOUNT_SID=your_account_sid
+TWILIO_AUTH_TOKEN=your_auth_token
+TWILIO_PHONE_NUMBER=your_twilio_phone
+You can get these values from your Twilio Console.
+
+🛣️ Roadmap
+✅ Set up Next.js + Tailwind
+
+✅ Connect GitHub and deploy basic frontend
+
+🧠 Add Twilio SMS functionality
+
+🧠 Integrate OpenAI to auto-generate responses
+
+🧠 Deploy to Vercel
+
+📄 License
+MIT License
+
+Built by Jonathan Jordan
